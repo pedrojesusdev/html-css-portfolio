@@ -3,6 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfólio de Pedro Jesus - Desenvolvedor Web Front-End especializado em React, Next.js, TypeScript e JavaScript">
+    <meta name="keywords" content="desenvolvedor web, front-end, React, Next.js, TypeScript, JavaScript, portfólio">
+    <meta name="author" content="Pedro André Melo Andrade de Jesus">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Portfólio • Pedro Jesus">
+    <meta property="og:description" content="Desenvolvedor Web Front-End especializado em React, Next.js, TypeScript e JavaScript">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:title" content="Portfólio • Pedro Jesus">
+    <meta property="twitter:description" content="Desenvolvedor Web Front-End especializado em React, Next.js, TypeScript e JavaScript">
+    
     <title>Portfólio • Pedro Jesus</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -10,9 +24,9 @@
 <body>
 
     <header class="header">
-        <h1>Pedro Jesus</h1>
+        <h1 class="header__title">Pedro Jesus</h1>
 
-        <nav class="header__nav">
+        <nav class="header__nav" aria-label="Navegação principal">
             <a href="#sobre" class="header__link">Sobre</a>
             <a href="#projetos" class="header__link">Projetos</a>
             <a href="#habilidades" class="header__link">Habilidades</a>
@@ -21,9 +35,9 @@
     </header>
 
     <section id="sobre" class="about">
-        <h2>Sobre mim</h2>
+        <h2 class="section__title">Sobre mim</h2>
 
-        <img src="assets/foto_perfil.jpg" alt="Foto de perfil" class="images__about">
+        <img src="assets/foto_perfil.jpg" alt="Foto de perfil de Pedro Jesus" class="images__about" loading="lazy">
 
         <div class="about__content">
             <p>
@@ -35,9 +49,9 @@
     </section>
 
     <section id="projetos" class="projects">
-        <h2>Projetos</h2>
+        <h2 class="section__title">Projetos</h2>
 
-        <p>
+        <p class="section__description">
             Aqui você encontra uma seleção dos meus principais projetos, desenvolvidos com foco em design,
             funcionalidade e experiência do usuário.
         </p>
@@ -48,13 +62,13 @@
                 <strong class="card__desc">Landing page de evento promocional da black friday:</strong>
 
                 <p>Link para o repositório:</p>
-                <a href="https://github.com/pedrojesusdev/black-impulse-elevate" class="card__link">
+                <a href="https://github.com/pedrojesusdev/black-impulse-elevate" class="card__link" target="_blank" rel="noopener noreferrer" aria-label="Repositório do projeto Black Impulse no GitHub">
                     Repositório
                 </a>
 
-                <img src="assets/print_black_friday.png" alt="Black Impulse" class="images__skills">
+                <img src="assets/print_black_friday.png" alt="Captura de tela do projeto Black Impulse" class="images__skills" loading="lazy">
 
-                <a href="https://black-impulse-elevate.lovable.app/" class="card__link">
+                <a href="https://black-impulse-elevate.lovable.app/" class="card__link" target="_blank" rel="noopener noreferrer" aria-label="Visualizar projeto Black Impulse">
                     Visualizar projeto
                 </a>
             </div>
@@ -63,13 +77,13 @@
                 <strong class="card__desc">Página de portfólio para empresa de arquitetura e design:</strong>
 
                 <p>Link para o repositório:</p>
-                <a href="https://github.com/pedrojesusdev/NastroArq." class="card__link">
+                <a href="https://github.com/pedrojesusdev/NastroArq." class="card__link" target="_blank" rel="noopener noreferrer" aria-label="Repositório do projeto Nastro Arquitetura no GitHub">
                     Repositório
                 </a>
 
-                <img src="assets/print_nastro.png" alt="Nastro Arquitetura" class="images__skills">
+                <img src="assets/print_nastro.png" alt="Captura de tela do projeto Nastro Arquitetura" class="images__skills" loading="lazy">
 
-                <a href="https://nastroarquitetura.com.br/" class="card__link">
+                <a href="https://nastroarquitetura.com.br/" class="card__link" target="_blank" rel="noopener noreferrer" aria-label="Visualizar projeto Nastro Arquitetura">
                     Visualizar projeto
                 </a>
             </div>
@@ -78,13 +92,28 @@
                 <strong class="card__desc">Site de portfólio e CRM de empresa de Marketing:</strong>
 
                 <p>Link para o repositório:</p>
-                <a href="https://github.com/pedrojesusdev/elev-digital-hub" class="card__link">
+                <a href="https://github.com/pedrojesusdev/elev-digital-hub" class="card__link" target="_blank" rel="noopener noreferrer" aria-label="Repositório do projeto Elev Digital Hub no GitHub">
                     Repositório
                 </a>
 
-                <img src="assets/print_elev.png" alt="Elev Digital Hub" class="images__skills">
+                <img src="assets/print_elev.png" alt="Captura de tela do projeto Elev Digital Hub" class="images__skills" loading="lazy">
 
-                <a href="https://elevbusiness.vercel.app/" class="card__link">
+                <a href="https://elevbusiness.vercel.app/" class="card__link" target="_blank" rel="noopener noreferrer" aria-label="Visualizar projeto Elev Digital Hub">
+                    Visualizar projeto
+                </a>
+            </div>
+
+            <div class="card">
+                <strong class="card__desc">Site de compras fictício de tenis:</strong>
+
+                <p>Link para o repositório:</p>
+                <a href="https://github.com/pedrojesusdev/pedro-s-fictitious-shop" class="card__link" target="_blank" rel="noopener noreferrer" aria-label="Repositório do projeto Fictitious Shop no GitHub">
+                    Repositório
+                </a>
+
+                <img src="assets/print_shop.png" alt="Captura de tela do projeto Fictitious Shop" class="images__skills" loading="lazy">
+
+                <a href="https://pedro-fictitious-shop.vercel.app/" class="card__link" target="_blank" rel="noopener noreferrer" aria-label="Visualizar projeto Fictitious Shop">
                     Visualizar projeto
                 </a>
             </div>
@@ -93,7 +122,7 @@
     </section>
 
     <section id="habilidades" class="skills">
-        <h2>Habilidades</h2>
+        <h2 class="section__title">Habilidades</h2>
 
         <div class="skills__grid">
             <div class="list">
@@ -127,9 +156,10 @@
         <p class="footer__text">Feito com 💻 por Pedro André</p>
         <p class="footer__text">📧 pa04052007@gmail.com</p>
         <p class="footer__text">📱 (79) 99976-6161</p>
-        <a href="https://github.com/pedrojesusdev" class="footer__link">https://github.com/pedrojesusdev</a>
+        <a href="https://github.com/pedrojesusdev" class="footer__link" target="_blank" rel="noopener noreferrer" aria-label="Perfil do GitHub">https://github.com/pedrojesusdev</a>
     </footer>
 
+    <script src="script.js"></script>
 </body>
 </html>
 
